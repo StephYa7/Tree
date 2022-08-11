@@ -16,7 +16,9 @@ public class Research {
         List<Link> links = tree.getLinks();
         for (Link el : links) {
             if (el.getPersonFirst().getName().equals(name)) {
-                System.out.println(el.getPersonSecond());
+
+                System.out.println(el.getLink() + " " + el.getPersonSecond());
+
             }
         }
     }

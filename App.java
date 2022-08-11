@@ -23,7 +23,7 @@ public class App {
         tree.addLink(person5, person1, Relation.SIBLINGS, Relation.SIBLINGS);
         tree.addLink(person1, person2, Relation.SPOUSES, Relation.SPOUSES);
 
-        Research.printChildren("Vasily", tree);
+        Research.printTree("Vasily", tree);
 
 
     }
